@@ -1,3 +1,5 @@
+## Custom notifications
 notify:
- webhooks:
-  -https://122cadb0.ngrok.io
+  webhooks:
+    # A list of hashes representing hooks. Only the url field is supported.
+    - url: https://122cadb0.ngrok.io
